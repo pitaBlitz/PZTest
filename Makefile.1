@@ -1,0 +1,11 @@
+#hello: helloMain.c helloFunc.c ./include/hello.h
+#	gcc -o hello helloMain.c hellofunc.c -I./include
+
+CC=gcc
+CFLAGS=-I./include
+
+hello: helloMain.o helloFunc.o 
+	gcc -o hello helloMain.o helloFunc.o
+
+clean: 
+	rm *.o
