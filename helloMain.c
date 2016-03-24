@@ -4,7 +4,7 @@
 
 int main() {
   // call a function in another file
-  myPrintHello();
+  _myPrintHello();
 
   return(0);
 }
