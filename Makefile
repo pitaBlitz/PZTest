@@ -21,4 +21,4 @@ hello: $(OBJ)
 .PHONY: clean
 
 clean:
-	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~
+	rm -f hello $(ODIR)/*.o *~ core $(INCDIR)/*~
