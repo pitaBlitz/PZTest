@@ -3,7 +3,7 @@
 
 void myPrintHello(void) {
 
-  printf("Hello Hello!\n");
+  print_f("Hello Hello!\n");
 
   return;
 }
